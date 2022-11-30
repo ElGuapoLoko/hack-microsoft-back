@@ -8,7 +8,7 @@ use \App\Http\Controllers\AccountController;
 
 
 Route::get('/', function () {
-    return 'PaPet ' . app()->version();
+    return 'Microsoft Educai ' . app()->version();
 });
 
 
