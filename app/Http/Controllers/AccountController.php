@@ -11,39 +11,5 @@ class AccountController extends Controller
     {
     }
 
-    public function index(Request $request)
-    {
 
-
-    }
-
-
-    public function store(Request $request)
-    {
-
-    }
-
-
-    public function show(Request $request)
-    {
-        //pegar usuário autenticado e fazer a requisição
-        $user = User::query()->with('userGames.game')->first();
-
-        return $user;
-
-
-    }
-
-
-    public function update( Request $request)
-    {
-
-
-    }
-
-    public function destroy(Request $request)
-    {
-
-
-    }
 }
